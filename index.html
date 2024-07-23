@@ -1,0 +1,268 @@
+<!Doctype html>
+<html>
+  <head>
+      <title>THUNDER</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="style.css">
+      
+      <!-- Bootstrap CSS Link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- Bootstrap JavaScript Link -->    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Bootstrap icons Link -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+      <!-- Sweet Alert Link -->
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <!-- JavaScript File -->
+      <script src="main.js"></script>
+      
+  </head>
+<body class="bg-dark text-light">
+    
+<!-- ----------------------Navbar ---------------------- -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #212529">
+
+     <div class="container-fluid">
+         <a class="navbar-brand" href="index.html" style="color:orange"><b>THUNDER</b></a>
+
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="players.html">Players</a>
+                <a class="nav-link" href="clips.html">Clips</a>
+                <a class="nav-link" href="history.html">History</a>
+              </div>
+         </div>
+     </div>
+ </nav>
+    <div style="margin-bottom:60px;"></div>
+
+<!-- ----------------------Navbar ends---------------------- -->
+
+<!------------------ Carousel -------------------->
+<div id="mainCarousel" class="carousel slide">  
+
+    <div class="carousel-inner">  
+        
+        <div class="carousel-item active">
+            <div class="overlay-image" style="background-image:url(https://images4.alphacoders.com/105/1057659.jpg)">
+            </div>
+            <div id="thunderc" class="carousel-container">
+                <h1>Players</h1>
+                <h4>Look At The Players For The Oklahoma City Thunder 2024</h4>
+                <button class="btn btn-danger">Play Now</button>
+            </div>
+        </div>
+        
+        <div class="carousel-item">
+            <div class="overlay-image" style="background-image:url('https://procodingclass.github.io/tynker-assets/images/movieCarousel.png')">
+            </div>
+            <div id="thunderc" class="carousel-container">
+                <h1>Clips</h1>
+                <h4>Look At Clips From Oklahoma City Thunder Games In 2023</h4>
+                <button class="btn btn-danger">Play Now</button>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="overlay-image" style="background-image:url('https://procodingclass.github.io/tynker-assets/images/booksCarousel.png')">
+            </div>
+            <div id="thunderc" class="carousel-container">
+                <h1>History</h1>
+                <h4>Look At The Famous History Of The OKC Thunder/Supersonics</h4>
+                <button class="btn btn-danger">Play Now</button>
+            </div>
+        </div>
+</div>
+    
+    <a class="carousel-control-prev" href="#mainCarousel" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a> 
+    
+</div>  
+<!------------------ Carousel ends-------------------->
+
+    
+<!----------------------Row 1 Music----------------------->   
+<div class="container-fluid position-static my-5" style="width:90%;">    
+<div class="row mb-2">
+  <div class="col-6 " >
+      <h3>Players</h3>
+    </div>  
+   
+  <div class="col-6 text-end"> 
+    <button class="btn btn-light" style="padding-bottom:10px;" onclick="window.location.href = 'players.html';">
+    Show More
+    </button>  
+  </div>  
+</div>  
+    
+<div class="row g-3">
+    <!-- 1st Music -->
+    <div class="col-md-4">
+        <div class="card border-0 bg-dark">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1628983.png" class="card-img-top">
+            <div class="card-img-overlay d-flex justify-content-end flex-column">
+                <h5>SGA</h5>
+                <p>Point Guard</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- 2nd Music -->
+    <div class="col-md-4">
+        <div class="card border-0 bg-dark">
+            <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4433255.png&w=350&h=254" class="card-img-top">
+            <div class="card-img-overlay d-flex justify-content-end flex-column">
+                <h5>Chet Holmgren</h5>
+                <p>Forward Center</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- 3rd Music -->
+    <div class="col-md-4">
+        <div class="card border-0 bg-dark">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1627936.png" class="card-img-top">
+            <div class="card-img-overlay d-flex justify-content-end flex-column">
+                <h5>Alex Caruso</h5>
+                <p>Point Guard</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+  
+
+</div>
+
+  
+    
+<!----------------------Row 2 Movies----------------------->   
+
+<!----------------------Row 2 Movies----------------------->   
+
+<div class="container-fluid position-static my-0" style="width:90%;" id="movie">    
+<div class="row mb-2">
+  <div class="col-6 " >
+      <h3>Clips</h3>
+    </div>
+      
+  <div class="col-6 text-end">
+    <button class="btn btn-light" style="padding-bottom:10px;" onclick="window.location.href = 'clips.html';">
+    Show More
+    </button>
+  </div>   
+</div>   
+<div class="row g-2" >  
+         <!-- 1st movie card -->
+                <div col-md-4 class="card border-0 bg-dark">
+ 
+                    
+                    <p align="center"><iframe src="https://www.youtube.com/embed/_ZWLoeTuHcQ?si=_dTRBveUZpsLMrg2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" width="265" height="200"></iframe></p>
+                        
+                    </div>
+                    
+
+
+</div>
+         
+ 
+
+<!----------------------Row 3 books----------------------->   
+    
+
+<!------------------------ Books ends ---------------------------------->
+
+<div class="row m-3">
+    <h2 class="text-center">Help us to improve</h2>
+    <img src="https://procodingclass.github.io/tynker-assets/images/contactUs.png" class="col-sm-4 col-12 mb-3">
+    
+    <!-- Add onsubmit attribute with value as return false; -->
+    <form class="col-sm-7 col-12">
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+              
+            <!-- Add id as name and required attribute to validate user name is present or not -->
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+
+          <div class="col-sm-6 mb-3">
+              
+            <!-- Add id as email and required attribute to validate user email address is present or not -->
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+        </div>
+
+        <!-- Add id as feedback and required attribute to validate user feedback is present or not -->
+        <textarea rows="4" cols="50" class="form-control mb-3" placeholder="Feedback" ></textarea>
+        <br>
+
+        <p class="m-0">Collections you liked on THUNDER</p>
+        <input class="form-check-input" type="checkbox" id="checkBox1">
+        <label for="checkBox1">Music</label>
+
+        <input class="form-check-input" type="checkbox" id="checkBox2">
+        <label for="checkBox2">Movies</label>
+
+        <!-- Create input field as checkbox last for selecting Books option and add class as form-check-input -->
+
+        
+        <!-- Create label for the checkbox with text as Books -->
+
+        <br>
+        <br>
+
+        <p class="m-0">How satisfied are you with THUNDER?</p>
+        <input type="radio" class="form-check-input" id="radioButton1" name="radioButton">
+        <label for="radioButton1">Satisfied</label>
+
+        <input type="radio" class="form-check-input" id="radioButton2" name="radioButton">
+        <label for="radioButton2">Neutral</label>
+        
+        <!-- Create input field as radio button for selecting Unsatisfied option and add class as form-check-input -->
+
+        
+        <!-- Create label for the radio button with text as Unsatisfied -->
+
+        <br><br>
+        
+        <!-- Add attribute as onclick and set value as submitForm() for activating the form submission -->
+        <input type="submit" class="btn btn-success w-100">
+
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
